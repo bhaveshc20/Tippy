@@ -17,23 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$" textAlignment="right" adjustsFontForContentSizeCategory="YES" minimumFontSize="10" id="ln7-QX-Wwr">
-                                <rect key="frame" x="14" y="140" width="346" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14791694283485413" green="0.17518508434295654" blue="0.24159041047096252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
-                                <color key="textColor" red="0.17935392260551453" green="0.98607486486434937" blue="0.71540850400924683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="70"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
-                                        <color key="value" red="0.14391738176345825" green="0.7888914942741394" blue="0.5715600848197937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="Tzv-Cr-wzD"/>
-                                </connections>
-                            </textField>
                             <view contentMode="scaleToFill" misplaced="YES" id="ros-uZ-k0Z">
                                 <rect key="frame" x="0.0" y="323" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,7 +54,7 @@
                                 <color key="tintColor" red="0.99607843137254903" green="1" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="u6r-uo-qu9">
-                                <rect key="frame" x="0.0" y="294" width="375" height="29"/>
+                                <rect key="frame" x="16" y="287" width="343" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%"/>
@@ -82,6 +65,23 @@
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="7hu-Q0-US1"/>
                                 </connections>
                             </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$" placeholder="$" textAlignment="right" adjustsFontForContentSizeCategory="YES" minimumFontSize="10" id="ln7-QX-Wwr">
+                                <rect key="frame" x="16" y="122" width="343" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.14791694283485413" green="0.17518508434295654" blue="0.24159041047096252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <color key="textColor" red="0.17935392260551453" green="0.98607486486434937" blue="0.71540850400924683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="70"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                        <color key="value" red="0.14391738176345825" green="0.7888914942741394" blue="0.5715600848197937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="Tzv-Cr-wzD"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.14901960784313725" green="0.1764705882352941" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.1803921568627451" green="0.98431372549019602" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
